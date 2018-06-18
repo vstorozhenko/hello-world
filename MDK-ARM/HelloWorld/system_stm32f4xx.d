@@ -11,6 +11,7 @@ helloworld\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/syst
 helloworld\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 helloworld\system_stm32f4xx.o: ../Inc/stm32f4xx_hal_conf.h
 helloworld\system_stm32f4xx.o: ../Inc/main.h
+helloworld\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 helloworld\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
 helloworld\system_stm32f4xx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 helloworld\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h

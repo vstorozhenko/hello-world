@@ -14,12 +14,12 @@ int main(void)
   MX_GPIO_Init();
   while (1){
 		
-		//HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
-		//HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
-		//HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14);
+		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
+		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14);
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_15);
 		
-		HAL_Delay(100);
+		HAL_Delay(500);
   
 	
 	}
